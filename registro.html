@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+</head>
+
+<body >
+    <header>
+        <div class="container-fluid">
+              <h1>Registrarse</h1>
+            <form name="registrar" method="POST" action="index.html" onsubmit="return registrar()">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Rut: </label>
+                        </td>
+                        <td>
+                            <input type="number" id="txtRutRegistro" name="txtRutRegistro" value="" maxlength="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Digito verificador: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtDvRegistro" name="txtDvRegistro" value="" maxlength="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Nombre: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtNombreRegistro" name="txtNombreRegistro" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Apellido: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtApellidoRegistro" name="txtApellidoRegistro" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Domicilio: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtDomicilioRegistro" name="txtDomicilioRegistro" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Correo: </label>
+                        </td>
+                        <td>
+                            <input type="email" id="txtCorreoRegistro" name="txtCorreoRegistro" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Teléfono: </label>
+                        </td>
+                        <td>
+                            <input type="number" id="txtTelefonoRegistro" name="txtTelefonoRegistro" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Contraseña: </label>
+                        </td>
+                        <td>
+                            <input type="password" id="txtContrasenaRegistro" name="txtContrasenaRegistro" value="">
+                        </td>
+                    </tr>
+                </table>
+                <div class="footer-div">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="location.href='index.html'">Inicio</button>
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                </div> 
+            </form>
+        </div>
+    </header>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="assets/js/stylish-portfolio.js"></script>
+    </body>
+</html>

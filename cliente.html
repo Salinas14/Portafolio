@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Cliente</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+</head>
+<body>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Bienvenido! </h1>
+                        <p>Ven a disfrutar de una explosion de sabores para tu paladar junto a nosotros!</p>
+                    </div>
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                      <div class="container">
+                        <div class="carousel-caption">
+                          <h1>Bienvenido! </h1>
+                          <p>Ven a disfrutar de una explosion de sabores para tu paladar junto a nosotros!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+        <!-- NAV -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="cliente.html">Restaurant Siglo XXI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="cliente.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reserva.html">Reserva</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuenta</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="miCuenta.html">Mi Cuenta</a>
+                <a class="dropdown-item" href="configuracion.html">Ajustes</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <h3></h3>
+      </div>
+      <!-- CARD TITTLE -->
+      <div class="container marketing">
+        <div class="row" style="margin-top: 50px; ">
+          <div class="card col-lg-4">
+              <img class="card-img-top" src="assets/img/img01.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Truto con papas fritas</h4>
+                <p class="card-text">
+                  Trutro de pollo asada con papas fritas, con un agregado de ensalada la cual contiene letchuga con tomates.
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                  Añadir
+                </button>
+              </div>
+            </div><!-- /.col-lg-4 -->
+            <div class="card col-lg-4">
+              <img class="card-img-top" src="assets/img/img02.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Camarones con arroz</h4>
+                <p class="card-text">
+                  Camarones ecuatorianos con arroz, tomates cherry y limones.
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                  Añadir
+                </button>
+              </div>
+            </div><!-- /.col-lg-4 -->
+          <div class="card col-lg-4">
+            <img class="card-img-top" src="assets/img/img03.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Jamon Tomates</h4>
+              <p class="card-text">
+                Jamon cortado en rodajas de manera horizontal junto con una ensalada de lechuga con tomate cherry.
+              </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                Añadir
+              </button>
+            </div>
+          </div><!-- /.col-lg-4 -->
+        </div>
+      </div>
+      
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModal3Label">Opcion N°1</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Comentario: </p>
+              <textarea name="txtAComentario" id="txtAComentario" cols="60" rows="5"></textarea>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Confirmar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lista de productos -->
+      <table class="table table-hover c_table" style="margin-top: 50px;">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Producto</th>
+                <th>Categoría</th>
+                <th>Precio</th>                
+                <th>Fecha</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>A2586</strong></td>
+                <td><a href="ticket-detail.html" title="">Lucid Side Menu Open OnClick</a></td>
+                <td><p>Plato de entrada</p></td>
+                <td>
+                  <p>
+                    $3.500
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                  </td>
+                <td><span class="badge badge-warning">6 Unidades</span></td>
+            </tr>
+            <tr>
+                <td><strong>A4578</strong></td>
+                <td><a href="ticket-detail.html" title="">Update chart library</a></td>
+                <td><p>Plato de entrada</p></td>
+                <td>
+                  <p>
+                    $2.990
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-warning">5 Unidades</span></td>
+            </tr>
+            <tr>
+                <td><strong>A6523</strong></td>
+                <td><a href="ticket-detail.html" title="">Mega Menu Open OnClick</a></td>
+                <td><p>Plato de fondo</p></td>
+                <td>
+                  <p>
+                    $7.350
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-info">Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A9514</strong></td>
+                <td><a href="ticket-detail.html" title="">Nexa Theme Side Menu Open OnClick</a></td>
+                <td><p>Plato de fondo</p></td>
+                <td>
+                  <p>
+                    $6.540
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-info">Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A2548</strong></td>
+                <td><a href="ticket-detail.html" title="">Update Angular version</a></td>
+                <td><p>Promoción del día</p></td>
+                <td>
+                  <p>
+                    $11.650
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-danger">No Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A1346</strong></td>
+                <td><a href="ticket-detail.html" title="">Add new hospital</a></td>
+                <td><p>Medio litro de Shop</p></td>
+                <td>
+                  <p>
+                    $5.000
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-danger">No Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A7845</strong></td>
+                <td><a href="ticket-detail.html" title="">Update latest bootstrap version</a></td>
+                <td><p>Bebida</p></td>
+                <td>
+                  <p>
+                    $1.500
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-danger">No Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A2586</strong></td>
+                <td><a href="ticket-detail.html" title="">Add new extra page</a></td>
+                <td><p>Plato de entrada</p></td>
+                <td>
+                  <p>
+                    $4.590
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-info">Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A4578</strong></td>
+                <td><a href="ticket-detail.html" title="">Update chart library</a></td>
+                <td><p>Plato de Fondo</p></td>
+                <td>
+                  <p>
+                    $5.500
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-info">Disponible</span></td>
+            </tr>
+            <tr>
+                <td><strong>A6523</strong></td>
+                <td><a href="ticket-detail.html" title="">Mega Menu Open OnClick</a></td>
+                <td><p>Desayuno</p></td>
+                <td>
+                  <p>
+                    $7.650
+                  </p>
+                </td>
+                <td>
+                  <script>
+                    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                    var f=new Date();
+                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                  </script>
+                </td>
+                <td><span class="badge badge-info">Disponible</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+      <!-- FOOTER -->
+
+
+
+      <script src="assets/js/app.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <script src="assets/js/stylish-portfolio.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    </body>
+</html>
